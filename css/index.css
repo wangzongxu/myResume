@@ -14,7 +14,44 @@ html, body {
     height: 100%;
     position: relative;
 }
+/*---------------------music---------------------------*/
+.music{
+    display: none;
+    position: absolute;
+    top: 0.17rem;
+    right: 0.27rem;
+    z-index: 100;
+    width: 0.35rem;
+    height: 0.35rem;
+    background: url("../audioFile/music.svg") no-repeat;
+    background-size: 100% 100%;
+}
+.music.move{
+    -webkit-animation: musicMove 1s linear infinite both;
+    animation: musicMove 1s linear infinite both;
+}
+@-webkit-keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+ }
+@keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 
+/*---------------------music---------------------------*/
 /*---------------------page1---------------------------*/
 .page1 {
     background-color: #ecbd83;
@@ -854,15 +891,15 @@ html, body {
 
 @-webkit-keyframes angry {
     0% {
-        top: 4.98rem;
+        top: 4.58rem;
         left: -0.4rem;
     }
     25% {
-        top: 4.9741rem;
+        top: 4.5741rem;
         left: 0.55rem;
     }
     50% {
-        top: 4.9741rem;
+        top: 4.5741rem;
         left: 0.55rem;
     }
     55% {
@@ -881,15 +918,15 @@ html, body {
 
 @keyframes angry {
     0% {
-        top: 4.98rem;
+        top: 4.58rem;
         left: -0.4rem;
     }
     25% {
-        top: 4.9741rem;
+        top: 4.5741rem;
         left: 0.55rem;
     }
     50% {
-        top: 4.9741rem;
+        top: 4.5741rem;
         left: 0.55rem;
     }
     55% {
@@ -1074,36 +1111,37 @@ html, body {
     }
 }
 
-/*@-webkit-keyframes bg6 {*/
-    /*0% {*/
-        /*left: -0.85rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*16.6% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*33.2% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*49.8% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 2.5rem;*/
-    /*}*/
-    /*66.4% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 2.5rem;*/
-    /*}*/
-    /*83% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 3.5rem;*/
-    /*}*/
-    /*100% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 3.5rem;*/
-    /*}*/
-/*}*/
+@-webkit-keyframes bg6 {
+    0% {
+        left: -0.85rem;
+        bottom: 1.5rem;
+    }
+    16.6% {
+        left: 0.66rem;
+        bottom: 1.5rem;
+    }
+    33.2% {
+        left: 1.66rem;
+        bottom: 1.5rem;
+    }
+    49.8% {
+        left: 1.66rem;
+        bottom: 2.5rem;
+    }
+    66.4% {
+        left: 0.66rem;
+        bottom: 2.5rem;
+
+    }
+    83% {
+        left: 0.66rem;
+        bottom: 3.5rem;
+    }
+    100% {
+        left: 1.66rem;
+        bottom: 3.5rem;
+    }
+}
 
 @keyframes bg6 {
     0% {

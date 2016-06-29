@@ -29,3 +29,22 @@ function callback(swiper) {
             item.id=null;
         });
 }
+
+var musicAudio=document.getElementById("musicAudio");
+var music=document.getElementById("music");
+window.setTimeout(function(){
+    musicAudio.play();
+    musicAudio.addEventListener("canplay",function(){
+        music.style.display="block";
+        music.className="music move"
+    },false)
+},1000);
+music.addEventListener("click",function(){
+    if(musicAudio.paused){
+        musicAudio.play();
+        music.className="music move";
+        return
+    }
+    musicAudio.pause();
+    music.className="music"
+},false);
