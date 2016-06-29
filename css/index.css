@@ -1074,36 +1074,37 @@ html, body {
     }
 }
 
-/*@-webkit-keyframes bg6 {*/
-    /*0% {*/
-        /*left: -0.85rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*16.6% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*33.2% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 1.5rem;*/
-    /*}*/
-    /*49.8% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 2.5rem;*/
-    /*}*/
-    /*66.4% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 2.5rem;*/
-    /*}*/
-    /*83% {*/
-        /*left: 0.66rem;*/
-        /*bottom: 3.5rem;*/
-    /*}*/
-    /*100% {*/
-        /*left: 1.66rem;*/
-        /*bottom: 3.5rem;*/
-    /*}*/
-/*}*/
+@-webkit-keyframes bg6 {
+    0% {
+        left: -0.85rem;
+        bottom: 1.5rem;
+    }
+    16.6% {
+        left: 0.66rem;
+        bottom: 1.5rem;
+    }
+    33.2% {
+        left: 1.66rem;
+        bottom: 1.5rem;
+    }
+    49.8% {
+        left: 1.66rem;
+        bottom: 2.5rem;
+    }
+    66.4% {
+        left: 0.66rem;
+        bottom: 2.5rem;
+
+    }
+    83% {
+        left: 0.66rem;
+        bottom: 3.5rem;
+    }
+    100% {
+        left: 1.66rem;
+        bottom: 3.5rem;
+    }
+}
 
 @keyframes bg6 {
     0% {
