@@ -14,8 +14,9 @@ html, body {
     height: 100%;
     position: relative;
 }
+
 /*---------------------music---------------------------*/
-.music{
+.music {
     display: none;
     position: absolute;
     top: 0.17rem;
@@ -26,10 +27,12 @@ html, body {
     background: url("../audioFile/music.svg") no-repeat;
     background-size: 100% 100%;
 }
-.music.move{
+
+.music.move {
     -webkit-animation: musicMove 1s linear infinite both;
     animation: musicMove 1s linear infinite both;
 }
+
 @-webkit-keyframes musicMove {
     0% {
         -webkit-transform: rotate(0deg);
@@ -39,7 +42,8 @@ html, body {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
- }
+}
+
 @keyframes musicMove {
     0% {
         -webkit-transform: rotate(0deg);
@@ -998,42 +1002,42 @@ html, body {
 
 .page4 .bg1 {
     left: 0.66rem;
-    bottom: 1.5rem;
+    top: 3.38rem;
     background: url("../img/bg_skill1.png") no-repeat;
     background-size: cover;
 }
 
 .page4 .bg2 {
     left: 1.66rem;
-    bottom: 1.5rem;
+    top: 3.38rem;
     background: url("../img/bg_skill2.png") no-repeat;
     background-size: cover;
 }
 
 .page4 .bg3 {
     left: 0.66rem;
-    bottom: 2.5rem;
+    top: 2.38rem;
     background: url("../img/bg_skill1.png") no-repeat;
     background-size: cover;
 }
 
 .page4 .bg4 {
     left: 1.66rem;
-    bottom: 2.5rem;
+    top: 2.38rem;
     background: url("../img/bg_skill2.png") no-repeat;
     background-size: cover;
 }
 
 .page4 .bg5 {
     left: 0.66rem;
-    bottom: 3.5rem;
+    top: 1.38rem;
     background: url("../img/bg_skill1.png") no-repeat;
     background-size: cover;
 }
 
 .page4 .bg6 {
     left: 1.66rem;
-    bottom: 3.5rem;
+    top: 1.38rem;
     background: url("../img/bg_skill2.png") no-repeat;
     background-size: cover;
 }
@@ -1078,330 +1082,340 @@ html, body {
 @-webkit-keyframes horse {
     0% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     25% {
         -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
     }
     50% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     75% {
         -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
     }
     100% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 
 @keyframes horse {
     0% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     25% {
         -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
     }
     50% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     75% {
         -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
     }
     100% {
         -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 
 @-webkit-keyframes bg6 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
 
     }
     83% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
 }
 
 @keyframes bg6 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
 
     }
     83% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
 }
 
 @-webkit-keyframes bg5 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     83% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
 }
 
 @keyframes bg5 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     83% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 3.5rem;
+        top: 1.38rem;
     }
 }
 
 @-webkit-keyframes bg4 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
 }
 
 @keyframes bg4 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     66.4% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
 }
 
 @-webkit-keyframes bg3 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
 }
 
 @keyframes bg3 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     49.8% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 2.5rem;
+        top: 2.38rem;
     }
 }
 
 @-webkit-keyframes bg2 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
 }
 
 @keyframes bg2 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     33.2% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     100% {
         left: 1.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
 }
 
 @-webkit-keyframes bg1 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
 }
 
 @keyframes bg1 {
     0% {
         left: -0.85rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     16.6% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
     100% {
         left: 0.66rem;
-        bottom: 1.5rem;
+        top: 3.38rem;
     }
 }
 
