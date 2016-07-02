@@ -143,7 +143,8 @@ html, body {
 
 .page1 nav .circle_2 {
     position: absolute;
-    top: 1rem;
+    top: 128.98%;
+    /*top: 1rem;*/
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -156,7 +157,8 @@ html, body {
 
 .page1 .outer {
     position: absolute;
-    top: 1.7rem;
+    /*top: 1.7rem;*/
+    top: 29.92%;
     left: 0;
     right: 0;
     width: 1.8rem;
@@ -214,7 +216,8 @@ html, body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 1.2rem;
+    top: 21.12%;
+    /*top: 1.2rem;*/
     margin: auto;
     width: 1.5rem;
     height: 1.5rem;
@@ -262,14 +265,17 @@ html, body {
     height: 0.5rem;
     position: absolute;
     left: 0.2rem;
-    top: 0.2rem;
+    top: 3.52%;
+    /*top: 0.2rem;*/
     -webkit-transform: rotate(-30deg) scale(0);
     transform: rotate(-30deg) scale(0);
 }
 
 .page2 hr {
     position: absolute;
-    top: 3rem;
+    top: 60.81%;
+    /*top: 52.81%;*/
+    /*top: 3rem;*/
     left: 0;
     right: 0;
     margin: auto;
@@ -280,7 +286,9 @@ html, body {
 
 .page2 p {
     position: absolute;
-    top: 3.2rem;
+    top: 63.33%;
+    /*top: 56.33%;*/
+    /*top: 3.2rem;*/
     left: 0;
     right: 0;
     margin: auto;
@@ -334,14 +342,27 @@ html, body {
 @-webkit-keyframes boy {
     0% {
         height: 0;
-        top: 2.69rem;
+        top: 47.35%;
+        /*top: 2.69rem;*/
     }
     100% {
         height: 1.4rem;
-        top: 1.25rem;
+        top: 22%;
+        /*top: 1.25rem;*/
     }
 }
-
+@keyframes boy {
+    0% {
+        height: 0;
+        top: 47.35%;
+        /*top: 2.69rem;*/
+    }
+    100% {
+        height: 1.4rem;
+        top: 22%;
+        /*top: 1.25rem;*/
+    }
+}
 @-webkit-keyframes page2p {
     100% {
         -webkit-transform: scale(1);
@@ -349,7 +370,13 @@ html, body {
         opacity: 1;
     }
 }
-
+@keyframes page2p {
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 @-webkit-keyframes bounceInLeft {
     from, 60%, 75%, 90%, to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -383,30 +410,81 @@ html, body {
         transform: none;
     }
 }
+@keyframes bounceInLeft {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
 
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-30rem, 0, 0);
+        transform: translate3d(-30rem, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0.25rem, 0, 0);
+        transform: translate3d(0.25rem, 0, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-0.1rem, 0, 0);
+        transform: translate3d(-0.1rem, 0, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0.05rem, 0, 0);
+        transform: translate3d(0.05rem, 0, 0);
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
 @-webkit-keyframes butterfly {
     100% {
         -webkit-transform: rotate(-30deg) scale(1);
         transform: rotate(-30deg) scale(1);
     }
 }
-
+@keyframes butterfly {
+    100% {
+        -webkit-transform: rotate(-30deg) scale(1);
+        transform: rotate(-30deg) scale(1);
+    }
+}
 @-webkit-keyframes circle_3 {
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
 }
-
+@keyframes circle_3 {
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
 @-webkit-keyframes circle_4op {
     0% {
         top: -1.5rem;
     }
     100% {
-        top: 1.2rem;
+        top: 21.12%;
+        /*top: 1.2rem;*/
     }
 }
-
+@keyframes circle_4op {
+    0% {
+        top: -1.5rem;
+    }
+    100% {
+        top: 21.12%;
+        /*top: 1.2rem;*/
+    }
+}
 @-webkit-keyframes circle_4 {
     0% {
         -webkit-transform: rotate(0deg);
@@ -425,7 +503,24 @@ html, body {
         transform: rotate(0deg);
     }
 }
-
+@keyframes circle_4 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    75% {
+        -webkit-transform: rotate(-720deg);
+        transform: rotate(-720deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
 @-webkit-keyframes bick1 {
     0% {
         opacity: 0;
@@ -434,28 +529,60 @@ html, body {
         opacity: 1;
     }
 }
-
+@keyframes bick1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @-webkit-keyframes bick {
     0% {
         left: 0.57rem;
-        top: 1.28rem;
+        top: 22.53%;
+        /*top: 1.28rem;*/
         -webkit-transform: rotate(-63deg);
         transform: rotate(-63deg);
     }
     60% {
         left: 0.96rem;
-        top: 0.93rem;
+        top: 16.37%;
+        /*top: 0.93rem;*/
         -webkit-transform: rotate(-25deg);
         transform: rotate(-25deg);
     }
     100% {
         left: 0.57rem;
-        top: 1.28rem;
+        top: 22.53%;
+        /*top: 1.28rem;*/
         -webkit-transform: rotate(-63deg);
         transform: rotate(-63deg);
     }
 }
-
+@keyframes bick {
+    0% {
+        left: 0.57rem;
+        top: 22.53%;
+        /*top: 1.28rem;*/
+        -webkit-transform: rotate(-63deg);
+        transform: rotate(-63deg);
+    }
+    60% {
+        left: 0.96rem;
+        top: 16.37%;
+        /*top: 0.93rem;*/
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+    }
+    100% {
+        left: 0.57rem;
+        top: 22.53%;
+        /*top: 1.28rem;*/
+        -webkit-transform: rotate(-63deg);
+        transform: rotate(-63deg);
+    }
+}
 /*---------------------page3---------------------------*/
 .page3 {
     background-color: #ecbd83;
@@ -475,7 +602,8 @@ html, body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0.85rem;
+    top: 14.96%;
+    /*top: 0.85rem;*/
     margin: auto;
     width: 2.5rem;
     height: 4rem;
@@ -649,6 +777,7 @@ html, body {
     0% {
         left: 0.6rem;
         top: 0.9rem;
+        /*top: 0.9rem;*/
         opacity: 0;
     }
     5% {
@@ -786,163 +915,201 @@ html, body {
 @-webkit-keyframes ball {
     0% {
         left: 0.01rem;
+        /*top: -7.04%;*/
         top: -0.4rem;
     }
     10% {
         left: 0.03rem;
-        top: 0.07rem;
+        top: 1.23%;
+        /*top: 0.07rem;*/
     }
     15% {
         left: 0.07rem;
-        top: 0.18rem;
+        top: 3.16%;
+        /*top: 0.18rem;*/
     }
     20% {
         left: 0.17rem;
-        top: 0.88rem;
+        top: 15.49%;
+        /*top: 0.88rem;*/
     }
     25% {
         left: 0.27rem;
-        top: 1.58rem;
+        top: 27.81%;
+        /*top: 1.58rem;*/
     }
     30% {
         left: 0.37rem;
-        top: 2.28rem;
+        top: 40.14%;
+        /*top: 2.28rem;*/
     }
     35% {
         left: 0.47rem;
-        top: 2.98rem;
+        top: 52.46%;
+        /*top: 2.98rem;*/
     }
     40% {
         left: 0.57rem;
-        top: 3.68rem;
+        top: 64.78%;
+        /*top: 3.68rem;*/
     }
     45% {
         left: 0.8rem;
-        top: 3.53rem;
+        top: 62.14%;
+        /*top: 3.53rem;*/
     }
     50% {
         left: 1.1rem;
-        top: 3.43rem;
+        top: 60.38%;
+        /*top: 3.43rem;*/
     }
     55% {
         left: 1.38rem;
-        top: 3.68rem;
+        top: 64.78%;
+        /*top: 3.68rem;*/
     }
     60% {
         left: 3.22rem;
-        top: 2.14rem;
+        top: 37.67%;
+        /*top: 2.14rem;*/
     }
     100% {
         left: 3.22rem;
-        top: 2.14rem;
+        top: 37.67%;
+        /*top: 2.14rem;*/
     }
 }
 
 @keyframes ball {
     0% {
         left: 0.01rem;
+        /*top: -7.04%;*/
         top: -0.4rem;
     }
     10% {
         left: 0.03rem;
-        top: 0.07rem;
+        top: 1.23%;
+        /*top: 0.07rem;*/
     }
     15% {
         left: 0.07rem;
-        top: 0.18rem;
+        top: 3.16%;
+        /*top: 0.18rem;*/
     }
     20% {
         left: 0.17rem;
-        top: 0.88rem;
+        top: 15.49%;
+        /*top: 0.88rem;*/
     }
     25% {
         left: 0.27rem;
-        top: 1.58rem;
+        top: 27.81%;
+        /*top: 1.58rem;*/
     }
     30% {
         left: 0.37rem;
-        top: 2.28rem;
+        top: 40.14%;
+        /*top: 2.28rem;*/
     }
     35% {
         left: 0.47rem;
-        top: 2.98rem;
+        top: 52.46%;
+        /*top: 2.98rem;*/
     }
     40% {
         left: 0.57rem;
-        top: 3.68rem;
+        top: 64.78%;
+        /*top: 3.68rem;*/
     }
     45% {
         left: 0.8rem;
-        top: 3.53rem;
+        top: 62.14%;
+        /*top: 3.53rem;*/
     }
     50% {
         left: 1.1rem;
-        top: 3.43rem;
+        top: 60.38%;
+        /*top: 3.43rem;*/
     }
     55% {
         left: 1.38rem;
-        top: 3.68rem;
+        top: 64.78%;
+        /*top: 3.68rem;*/
     }
     60% {
         left: 3.22rem;
-        top: 2.14rem;
+        top: 37.67%;
+        /*top: 2.14rem;*/
     }
     100% {
         left: 3.22rem;
-        top: 2.14rem;
+        top: 37.67%;
+        /*top: 2.14rem;*/
     }
 }
 
 @-webkit-keyframes angry {
     0% {
-        top: 4.58rem;
+        top: 80.63%;
+        /*top: 4.58rem;*/
         left: -0.4rem;
     }
     25% {
-        top: 4.5741rem;
+        top: 80.52%;
+        /*top: 4.5741rem;*/
         left: 0.55rem;
     }
     50% {
-        top: 4.5741rem;
+        top: 80.52%;
+        /*top: 4.5741rem;*/
         left: 0.55rem;
     }
     55% {
-        top: 3.73rem;
+        top: 65.66%;
+        /*top: 3.73rem;*/
         left: 1.30rem;
     }
     90% {
-        top: 3.73rem;
+        top: 65.66%;
+        /*top: 3.73rem;*/
         left: 1.30rem;
     }
     100% {
-        top: 3.48rem;
+        top: 61.26%;
+        /*top: 3.48rem;*/
         left: 3.22rem;
     }
 }
 
 @keyframes angry {
     0% {
-        top: 4.58rem;
+        top: 80.63%;
+        /*top: 4.58rem;*/
         left: -0.4rem;
     }
     25% {
-        top: 4.5741rem;
+        top: 80.52%;
+        /*top: 4.5741rem;*/
         left: 0.55rem;
     }
     50% {
-        top: 4.5741rem;
+        top: 80.52%;
+        /*top: 4.5741rem;*/
         left: 0.55rem;
     }
     55% {
-        top: 3.73rem;
+        top: 65.66%;
+        /*top: 3.73rem;*/
         left: 1.30rem;
     }
     90% {
-        top: 3.73rem;
+        top: 65.66%;
+        /*top: 3.73rem;*/
         left: 1.30rem;
     }
     100% {
-        top: 3.48rem;
+        top: 61.26%;
+        /*top: 3.48rem;*/
         left: 3.22rem;
     }
 }
@@ -1128,294 +1295,294 @@ html, body {
 @-webkit-keyframes bg6 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
 
     }
     83% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
     100% {
         left: 1.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
 }
 
 @keyframes bg6 {
-     0% {
+    0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
 
     }
     83% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
     100% {
         left: 1.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
 }
 
 @-webkit-keyframes bg5 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     83% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
     100% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
 }
 
 @keyframes bg5 {
-     0% {
+    0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     83% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
     100% {
         left: 0.66rem;
-        top: 1.08rem;
+        top: 27.81%;
     }
 }
 
 @-webkit-keyframes bg4 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     100% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
 }
 
 @keyframes bg4 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     66.4% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     100% {
         left: 0.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
 }
 
 @-webkit-keyframes bg3 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     100% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
 }
 
 @keyframes bg3 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     49.8% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
     100% {
         left: 1.66rem;
-        top: 2.08rem;
+        top: 45.42%;
     }
 }
 
 @-webkit-keyframes bg2 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     100% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
 }
 
 @keyframes bg2 {
-   0% {
+    0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     33.2% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     100% {
         left: 1.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
 }
 
 @-webkit-keyframes bg1 {
     0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     100% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
 }
 
 @keyframes bg1 {
-   0% {
+    0% {
         left: -0.85rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     16.6% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
     100% {
         left: 0.66rem;
-        top: 3.08rem;
+        top: 63.02%;
     }
 }
 
@@ -1462,7 +1629,8 @@ html, body {
 .page5 nav {
     position: absolute;
     left: 0.35rem;
-    top: 0.24rem;
+    /*top: 0.24rem;*/
+    top: 4.22%;
     width: 1.22rem;
     height: 0.3rem;
     line-height: 0.3rem;
@@ -1473,7 +1641,8 @@ html, body {
 .page5 span {
     position: absolute;
     left: 1.66rem;
-    top: 0.41rem;
+    /*top: 0.41rem;*/
+    top: 7.21%;
     width: 1.51rem;
     height: 0.01rem;
     background-color: #FFFFFF;
@@ -1490,7 +1659,8 @@ html, body {
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     left: 0.38rem;
-    bottom: 1.3rem;
+    top: 39.08%;
+    /*bottom: 1.3rem;*/
     width: 0.58rem;
     height: 2.16rem;
 }
@@ -1499,7 +1669,8 @@ html, body {
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     right: 0.23rem;
-    bottom: 1.3rem;
+    top: 39.08%;
+    /*bottom: 1.3rem;*/
     width: 2rem;
     height: 2.16rem;
 }
@@ -1519,7 +1690,8 @@ html, body {
 .page5 .airplane {
     position: absolute;
     right: 0;
-    top: 0.8rem;
+    top: 14.08%;
+    /*top: 0.8rem;*/
     width: 0.4rem;
     height: 0.5rem;
     margin: auto;
