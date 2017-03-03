@@ -15,7 +15,7 @@ new Swiper(".swiper-container", {
 function callback(swiper) {
     var i = swiper.activeIndex;
     var ary = swiper.slides;
-        ary.forEach(function (item, index) {
+        [].forEach.call(ary,function (item, index) {
             if(index==i){
                 if (i == 0||i==5) {
                     item.id = "page5"
