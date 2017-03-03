@@ -1,2 +1,2 @@
 # myResume
-Mobile Resume
+[Mobile Resume](https://wangzongxu.github.io/myResume/)
